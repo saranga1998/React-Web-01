@@ -32,18 +32,19 @@ export const navlink = [
 ]
 export const home = [
   {
+    
     text: "HELLO I'M",
     name: "Sajitha Saranga",
     post: "Full Stack Developer",
     design: "Software Engineer",
-    desc: "Undergraduate at University of Jaffna",
+    desc: "A dynamic undergraduate with ICT degree from University of Jaffna, Sri Lanka, experienced as intern software engineer/ backend developer at Nanosoft Global,skilled in innovative solutions, database design, and eager to contributeto software development projects.",
   },
 ]
 export const about = [
   {
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+    desc: "Hello",
     desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    cover: "./images/man.png",
+    cover: "./images/Profile.jpg",
   },
 ]
 // export const services = [
