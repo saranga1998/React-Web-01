@@ -1,9 +1,8 @@
 import React,{useState} from 'react'
 import { Link } from "react-router-dom";
 import {navlink} from "../Data/dummuydata"
-import logo from "../Data/Images/logo.png"
 import { Menu } from '@mui/icons-material';
-
+import mark from "../Data/Images/logo.png";
 
 function Header() {
 
@@ -13,7 +12,7 @@ function Header() {
         <header>
             <div className='container flexsb'>
                 <div className='logo'>
-                  <img src='logo'alt=''/>
+                  Saranga
                 </div>
                 <div className={responsive? 'hideMenu':'nav'} >
                   {navlink.map((links,i)=>

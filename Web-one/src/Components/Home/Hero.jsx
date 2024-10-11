@@ -1,6 +1,7 @@
 import React from 'react'
-import { home } from "../Data/dummuydata"
+import { home,about } from "../Data/dummuydata"
 import Typewriter from 'typewriter-effect'
+
 
 
 function Hero() {
@@ -9,7 +10,7 @@ function Hero() {
             <section className='hero'>
                 {
                     home.map((val, i) => (
-                        <div className='heroContainer'>
+                        <div className='heroContent' key={i}>
                             <h3>{val.text}</h3>
                             <h1>
                                 <Typewriter
@@ -20,6 +21,9 @@ function Hero() {
                                     }}
                                 />
                             </h1>
+                            <p>{val.desc}</p>
+                            
+                            <button className='primaryBtn'>Download CV</button>
                         </div>
                     ))
                 }
