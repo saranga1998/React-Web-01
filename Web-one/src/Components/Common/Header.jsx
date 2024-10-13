@@ -12,7 +12,7 @@ function Header() {
         <header>
             <div className='container flexsb'>
                 <div className='logo'>
-                  Saranga
+                  Sajitha Saranga
                 </div>
                 <div className={responsive? 'hideMenu':'nav'} >
                   {navlink.map((links,i)=>
