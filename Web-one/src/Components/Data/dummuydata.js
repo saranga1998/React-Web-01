@@ -42,8 +42,8 @@ export const home = [
 ]
 export const about = [
   {
-    desc: "Hello",
-    desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+    desc: "Hello There,",
+    desc1: "I am an undergraduate student in the Faculty of Technology, University Of Jaffna. With a diverse and solid foundation in programming languages such as C++, Java, Python, C#, and JavaScript, I've worked on various projects.I've the most experience with .net as I frequently used it in my previous position to design and implement Bank Insurance System.Furthermore, my knowledge extends to  relational databases, namely MySQL,MSSQL .I am a highly motivated and self-driven individual with a passion for software engineering. I am eager to learn new things and to contribute to the development of innovative software solutions.",
     cover: "./images/Profile.jpg",
   },
 ]

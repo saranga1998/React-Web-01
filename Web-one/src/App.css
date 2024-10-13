@@ -169,6 +169,15 @@ section {
 }
 
 /*---------about-------------*/
+.heroContanier{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.about{
+  padding-top: 50px;
+  margin-top: 50px;
+}
 .about .primaryBtn {
   margin-left: 20px;
 }
@@ -176,9 +185,11 @@ section {
   text-align: left;
   margin: 0;
 }
-.left {
+.left { 
   width: 35%;
+  border-color: #e0a80d;
 }
+
 .right {
   width: 65%;
 }
