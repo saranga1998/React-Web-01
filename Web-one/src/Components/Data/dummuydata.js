@@ -1,5 +1,5 @@
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
-
+import port1 from '../Data/Images/port/port1.jpg';
 export const navlink = [
   {
     url: "/",
@@ -114,7 +114,7 @@ export const project = [
 export const portfolio = [
   {
     id: 1,
-    cover: "../images/port/port1.jpg",
+    cover: port1,
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",

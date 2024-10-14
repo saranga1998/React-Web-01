@@ -4,6 +4,7 @@ import Header from '../Common/Header';
 import Home from '../Home/Home';
 import About from './About';
 import Services from './Services';
+import Portfolio from './Portfolio';
 
 function Pages() {
   return (
@@ -14,6 +15,7 @@ function Pages() {
             <Route exact path='/' component={Home}/>
             <Route exact path='/about' component={About}/>
             <Route exact path='/services' component={Services}/>
+            <Route exact path='/portfolio' component={Portfolio}/>
         </Switch>
     </Router>
     </>
