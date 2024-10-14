@@ -1,7 +1,7 @@
 import React from 'react'
 import { project } from '../Data/dummuydata'
 import CountUp from 'react-countup'
-import Bg from '../Data/Images/Bg.jpg'
+
 
 function Counter() {
   return (
