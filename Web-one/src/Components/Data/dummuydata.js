@@ -37,80 +37,80 @@ export const home = [
     name: "Sajitha Saranga",
     post: "Full Stack Developer",
     design: "Software Engineer",
-    desc: "A dynamic undergraduate with ICT degree from University of Jaffna, Sri Lanka, experienced as intern software engineer/ backend developer at Nanosoft Global,skilled in innovative solutions, database design, and eager to contributeto software development projects.",
+    desc: "A dynamic undergraduate with ICT degree from University of Jaffna, Sri Lanka, experienced as intern software engineer/ backend developer at Nanosoft Global,skilled in innovative solutions, database design, and eager to contribute to software development projects.",
   },
 ]
 export const about = [
   {
     desc: "Hello There,",
-    desc1: "I am an undergraduate student in the Faculty of Technology, University Of Jaffna. With a diverse and solid foundation in programming languages such as C++, Java, Python, C#, and JavaScript, I've worked on various projects.I've the most experience with .net as I frequently used it in my previous position to design and implement Bank Insurance System.Furthermore, my knowledge extends to  relational databases, namely MySQL,MSSQL .I am a highly motivated and self-driven individual with a passion for software engineering. I am eager to learn new things and to contribute to the development of innovative software solutions.",
+    desc1: "I am an undergraduate student in the Faculty of Technology, University Of Jaffna. With a diverse and solid foundation in programming languages such as C++, Java, Python, C#, and JavaScript, I've worked on various projects. I've the most experience with .net as I frequently used it in my previous position to design and implement Bank Insurance System.Furthermore, my knowledge extends to  relational databases, namely MySQL,MSSQL . I am a highly motivated and self-driven individual with a passion for software engineering. I am eager to learn new things and to contribute to the development of innovative software solutions.",
     cover: "./images/Profile.jpg",
   },
 ]
-// export const services = [
-//   {
-//     id: 1,
-//     icon: <Settings />,
-//     title: "Creative Design",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 2,
-//     icon: <CropRotate />,
-//     title: "Clean Code",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 3,
-//     icon: <ViewInAr />,
-//     title: "Responsive Design",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 4,
-//     icon: <PieChart />,
-//     title: "Material UI	",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 5,
-//     icon: <Code />,
-//     title: "Material UI Icons",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 6,
-//     icon: <BarChart />,
-//     title: "Awesome Support",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-// ]
-// export const project = [
-//   {
-//     id: 1,
-//     icon: <CloudOutlined />,
-//     num: "89",
-//     title: "HAPPY CLIENTS",
-//   },
-//   {
-//     id: 2,
-//     icon: <FavoriteBorder />,
-//     num: "231",
-//     title: "PROJECTS COMPLEATED",
-//   },
-//   {
-//     id: 3,
-//     icon: <Public />,
-//     num: "108",
-//     title: "FILES DOWNLOADED",
-//   },
-//   {
-//     id: 4,
-//     icon: <PersonOutlined />,
-//     num: "1446",
-//     title: "LIENS OF CODE",
-//   },
-// ]
+export const services = [
+  {
+    id: 1,
+    icon:  "Settings",
+    title: "Creative Design",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 2,
+    icon: CropRotate,
+  title: "Clean Code",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 3,
+    icon: ViewInAr,
+    title: "Responsive Design",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 4,
+    icon: PieChart,
+    title: "Material UI	",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 5,
+    icon: Code,
+    title: "Material UI Icons",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 6,
+    icon: BarChart,
+    title: "Awesome Support",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+]
+export const project = [
+  {
+    id: 1,
+    icon: "CloudOutlined ",
+    num: "89",
+    title: "HAPPY CLIENTS",
+  },
+  {
+    id: 2,
+    icon:"FavoriteBorder",
+    num: "231",
+    title: "PROJECTS COMPLEATED",
+  },
+  {
+    id: 3,
+    icon: "Public",
+    num: "108",
+    title: "FILES DOWNLOADED",
+  },
+  {
+    id: 4,
+    icon: "PersonOutlined ",
+    num: "1446",
+    title: "LIENS OF CODE",
+  },
+]
 export const portfolio = [
   {
     id: 1,

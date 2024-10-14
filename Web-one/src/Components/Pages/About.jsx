@@ -1,7 +1,7 @@
 import React from 'react'
 import { about } from '../Data/dummuydata'
 import Heading from '../Common/Heading';
-import Bg from '../Data/Images/Profile.png'
+import Pr from '../Data/Images/Profile.png'
 
 function About() {
   return (
@@ -11,7 +11,7 @@ function About() {
               {about.map((val,i)=>(
                 <>
                   <div className='left'>
-                    <img className='profile' src={Bg} alt=''></img>
+                    <img className='profile' src={Pr} alt=''></img>
                   </div>
                   <div className='right' key={i}>
                     <Heading title='About me'/>
