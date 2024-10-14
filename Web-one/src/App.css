@@ -175,8 +175,8 @@ section {
   
 }
 .about{
-  padding-top: 50px;
-  margin-top: 50px;
+  padding-top: 10px;
+  margin-top: 5px;
 }
 .about .primaryBtn {
   margin-left: 20px;
@@ -204,13 +204,13 @@ section {
 /*---------services-------------*/
 .services .box {
   background-color: var(--primaryBackground);
-  padding: 35px;
+  padding: 15px;
 }
 .services i {
   color: var(--primaryColor);
 }
 .services h3 {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 /*---------services-------------*/
 .grid4 {
@@ -226,7 +226,7 @@ section {
   position: relative;
 }
 .hero.counter::after {
-  background-image: url("../public/images/some-facts-bg.png");
+  background-image: url("../src/Components/Data/Images/Bg.jpg");
   height: 50vh;
 }
 .counter h1 {
