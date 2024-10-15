@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Common/Heading'
 import { blog } from '../Data/dummuydata'
-import Bl from '../Data/Images/blog/b1.png'
+
 
 export default function Blog() {
     return (
@@ -12,9 +12,9 @@ export default function Blog() {
                     <div className='content grid3'>
                         {blog.map((item) => {
                             return (
-                                <div className='box'>
+                                <div className='box' key={item.id}>
                                     <div className='img'>
-                                        <img src={Bl}/>
+                                        <img src={item.cover}/>
                                     </div>
                                     <div className='text'>{item.title}
                                         <label>
