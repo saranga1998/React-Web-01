@@ -159,7 +159,7 @@ export const testimonials = [
   {
     id: 1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-1.png",
+    image: "./images/testimonials/",
     name: "Alamin Musa",
     post: "Front End Developer",
   },

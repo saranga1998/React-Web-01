@@ -300,7 +300,7 @@ article .box:hover .overlay {
   background-image: url("../public/images/testimonials-bg.png");
 }
 .testimonials .box {
-  max-width: 60%;
+  max-width: 40%;
 }
 .testimonials i {
   background-color: var(--white);
@@ -331,6 +331,10 @@ label {
   color: var(--primaryColor);
   margin: 10px 0;
   display: inline-block;
+}
+.containerSlide{
+  width: 60%;
+  
 }
 /*---------testimonials-------------*/
 /*---------blog-------------*/
