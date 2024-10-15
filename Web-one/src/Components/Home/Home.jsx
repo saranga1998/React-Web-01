@@ -4,6 +4,8 @@ import About from '../Pages/About'
 import Services from '../Pages/Services'
 import Counter from '../Pages/Counter'
 import Portfolio from '../Pages/Portfolio'
+import Testimonials from '../Pages/Testimonials'
+import Blog from '../Pages/Blog'
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
         <Services/>
         <Counter/>
         <Portfolio/>
+        <Testimonials/>
+        <Blog/>
     </>
   )
 }

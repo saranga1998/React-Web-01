@@ -10,7 +10,7 @@ function About() {
             <div className='heroContanier'>
               {about.map((val,i)=>(
                 <>
-                  <div className='left'>
+                  <div className='left' >
                     <img className='profile' src={Pr} alt=''></img>
                   </div>
                   <div className='right' key={i}>
