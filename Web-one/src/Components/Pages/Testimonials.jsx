@@ -1,7 +1,6 @@
 import React from 'react'
 import { testimonials } from '../Data/dummuydata'
 import { FormatQuote } from '@mui/icons-material'
-import Ts from '../Data/Images/testimonials/team-1.png'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -23,7 +22,7 @@ function Testimonials() {
                             <div className='box'>                               
                                 <p>{val.text}</p>
                                 <div className='img'>
-                                    <img src={Ts} />
+                                    <img src={val.image} />
                                 </div>
                                 <h3>{val.name}</h3>
                                 <label>{val.post}</label>

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { portfolio } from '../Data/dummuydata'
-import PI from '../Data/Images/port/port1.jpg'
+
 import Heading from '../Common/Heading'
 
 const allCategory = ['all', ...new Set(portfolio.map((item)=>item.category))]
@@ -32,7 +32,7 @@ function Portfolio() {
                 {list.map((items)=>(
                     <div className='box'>
                         <div className='img'>
-                            <img src={PI} alt=''/>
+                            <img src={items.cover} alt=''/>
                         </div>
                         <div className='overlay'>
                             <h3>{items.title}</h3>
