@@ -35,8 +35,8 @@ function Portfolio() {
                             <img src={items.cover} alt=''/>
                         </div>
                         <div className='overlay'>
-                            <h3>{items.title}</h3>
-                            <span>{items.name}</span>
+                            <h3>{items.name}</h3>
+                            <span>{items.title}</span>
                         </div>
                     </div>
                 ))}
