@@ -11,9 +11,9 @@ function About() {
               {about.map((val,i)=>(
                 <>
                   <div className='left' >
-                    <img className='profile' src={Pr} alt=''></img>
+                    <img className='profile' src={Pr} alt='' data-aos="fade-down-right"></img>
                   </div>
-                  <div className='right' key={i}>
+                  <div className='right' key={i} data-aos="fade-left">
                     <Heading title='About me'/>
                     <p>{val.desc}</p>
                     <p>{val.desc1}</p>

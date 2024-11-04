@@ -7,7 +7,7 @@ function Counter() {
   return (
     <>
     <div className='hero counter'>
-        <div className='container grid3 grid4'>
+        <div className='container grid3 grid4' data-aos="zoom-out-down">
             {project.map((item,i)=>(
                 <div className='box'>
                     <i>{item.icon}</i>

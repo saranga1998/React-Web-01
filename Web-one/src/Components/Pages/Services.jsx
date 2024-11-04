@@ -27,9 +27,9 @@ function Services() {
       <section className='services'>
         <div className='container'>
           <Heading title='Our Services' />
-          <div className='Content grid3'>
+          <div className='Content grid3' >
             {services.map((item, i) => (
-              <div className='box' key={i}>
+              <div className='box' key={i} data-aos="flip-up">
                 <i>{getIconComponent(item.icon)}</i>
                 <h3>{item.title}</h3>
                 <p>{item.desc}</p>

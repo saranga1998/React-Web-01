@@ -11,7 +11,7 @@ function Hero() {
                 {
                     home.map((val, i) => (
                         <div className='heroContent' key={i}>
-                            <h3>{val.text}</h3>
+                            <h3 data-aos="fade-right">{val.text}</h3>
                             <h1>
                                 <Typewriter
                                     options={{
@@ -21,9 +21,9 @@ function Hero() {
                                     }}
                                 />
                             </h1>
-                            <p>{val.desc}</p>
+                            <p data-aos="fade-right">{val.desc}</p>
                             
-                            <button className='primaryBtn'>Download CV</button>
+                            <button className='primaryBtn' data-aos="fade-up-right">Download CV</button>
                         </div>
                     ))
                 }
