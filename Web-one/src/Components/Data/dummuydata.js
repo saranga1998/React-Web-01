@@ -207,17 +207,17 @@ export const blog = [
 export const contact = [
    {
      icon: "AddLocationAltOutlined",
-     text1: "2651 Main Street, Suit 124",
-     text2: "Seattle, WA, 98101",
+     text1: "148/Pahala Hanwella,",
+     text2: "Colombo, Sri Lanka",
    },
    {
      icon: "PhoneIphone",
-     text1: "0123456789",
-     text2: "0345627891",
+     text1: "+94718519673",
+     text2: "+94759807842",
    },
    {
      icon: "EmailOutlined",
-     text1: "hello@thetheme.io",
+     text1: "Sajithasaranga2016@gmail.com",
      text2: "inf0@brex-theme.io",
    },
  ]

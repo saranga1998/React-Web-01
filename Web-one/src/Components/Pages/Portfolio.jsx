@@ -30,7 +30,7 @@ function Portfolio() {
             </div>
             <div className='content grid3'>
                 {list.map((items)=>(
-                    <div className='box'data-aos="flip-left">
+                    <div className='box skill'data-aos="flip-left">
                         <div className='img'>
                             <img src={items.cover} alt=''/>
                         </div>
