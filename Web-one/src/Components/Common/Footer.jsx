@@ -20,16 +20,16 @@ const getIconComponent = (iconName) => {
 export default function Footer() {
     return (
         <>
-            <footer>
+            <footer >
                 {social.map((item) => (
                     <>
-                        <i>
+                        <i data-aos="zoom-in-up">
                             {getIconComponent(item.icon)}
                         </i>
                     </>
 
                 ))}
-                <p>All Right Received 2024</p>
+                <p data-aos="zoom-in-up">All Right Received 2024</p>
             </footer>
         </>
     )

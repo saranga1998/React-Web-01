@@ -3,7 +3,7 @@ import React from 'react'
 function Heading({title}) {
   return (
     <>
-        <h2 className='heading'>{title}</h2>
+        <h2 className='heading'data-aos="zoom-in-up">{title}</h2>
     </>
   )
 }

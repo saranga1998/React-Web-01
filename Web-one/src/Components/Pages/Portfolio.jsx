@@ -22,7 +22,7 @@ function Portfolio() {
         <article>
             <div className='container'>
             <Heading title="Portfolio"/>
-                <div className='catButton'>
+                <div className='catButton'data-aos="fade-down">
                     {category.map((category)=>(
                         <button className='primaryBtn' onClick={()=>filterItems(category)}>{category}</button>
                     ))}
@@ -30,7 +30,7 @@ function Portfolio() {
             </div>
             <div className='content grid3'>
                 {list.map((items)=>(
-                    <div className='box'>
+                    <div className='box'data-aos="flip-left">
                         <div className='img'>
                             <img src={items.cover} alt=''/>
                         </div>

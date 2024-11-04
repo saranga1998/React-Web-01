@@ -12,7 +12,7 @@ export default function Blog() {
                     <div className='content grid3'>
                         {blog.map((item) => {
                             return (
-                                <div className='box' key={item.id}>
+                                <div className='box' key={item.id} data-aos="zoom-in">
                                     <div className='img'>
                                         <img src={item.cover}/>
                                     </div>

@@ -21,7 +21,7 @@ export default function Contact() {
         <div className='contact'>
             <div className='container'>
                 <Heading title="Keep in Touch"/>
-                <div className='content flexsb'>
+                <div className='content flexsb'data-aos="zoom-in-down">
                     <div className='right'>
                         <form>
                             <div className='flex'>
