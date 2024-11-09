@@ -1,9 +1,10 @@
 import React from 'react'
 import { testimonials } from '../Data/dummuydata'
-import { FormatQuote } from '@mui/icons-material'
+import { FormatQuote, Height } from '@mui/icons-material'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { height } from '@mui/system';
 
 function Testimonials() {
     var settings = {
@@ -20,12 +21,13 @@ function Testimonials() {
                     <Slider {...settings}>
                         {testimonials.map((val) => (
                             <div className='box'>                               
-                                <p>{val.text}</p>
+                                
                                 <div className='img'>
                                     <img src={val.image} />
                                 </div>
                                 <h3>{val.name}</h3>
                                 <label>{val.post}</label>
+                                <p>{val.text}</p>
                             </div>
                         ))}
                     </Slider>
@@ -36,3 +38,4 @@ function Testimonials() {
 }
 
 export default Testimonials
+// --primaryBackground: #212222;--secondaryBackground: #2f3030;
