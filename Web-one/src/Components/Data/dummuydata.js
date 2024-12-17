@@ -158,23 +158,23 @@ export const portfolio = [
 export const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "testimonials/team-1.png",
+    text: "Contact No-0769360131,Email-Dhamith@bluebaylabs.com",
+    image: "testimonials/Choiya.jpeg",
     name: "Dhamith Kumara",
-    post: "Full Stack Developer",
+    post: "Associated Full Stack Developer",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "testimonials/team-2.png",
+    text: "Contact No-0770576274,Email-hello@pasinduljay.engineer",
+    image: "testimonials/Default.jpg",
     name: "Pasindu Lakshitha",
-    post: "DevOps Engineer",
+    post: "Cloud & System Developer | Security Officer at Crede Technologies.Inc",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "testimonials/team-3.png",
-    name: "GorkCoder",
+    text: "Contact No-0123456789,Email-abc@gmail.com",
+    image: "testimonials/Default.jpg",
+    name: "Yasiru Dilshan",
     post: "React Developer",
   },
 ]
