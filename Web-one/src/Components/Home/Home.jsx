@@ -17,7 +17,7 @@ function Home() {
         <Counter/>
         <Portfolio/>
         <Testimonials/>
-        <Blog/>
+        {/* <Blog/> */}
         <Contact/>
     </>
   )
