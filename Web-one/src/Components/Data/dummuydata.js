@@ -21,10 +21,10 @@ export const navlink = [
     url: "/testimonials",
     text: "Testimonials",
   },
-  {
-    url: "/blog",
-    text: "Blog",
-  },
+  // {
+  //   url: "/blog",
+  //   text: "Blog",
+  // },
   {
     url: "/contact",
     text: "Contact",
